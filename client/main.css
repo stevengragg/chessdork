@@ -1,0 +1,74 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+@font-face {
+    font-family: 'lichess';
+       src: url("/fonts/lichess.woff");
+    }
+
+@font-face {
+    font-family: 'fontawesome';
+       src: url("/fonts/fontawesome/fa-solid-900.woff");
+    }
+    
+.speechBubble:after{
+  position: absolute;
+  content: '';
+  bottom: -9px;
+  left: 20%;
+  width: 14px;
+  height: 15px;
+  background: #fff;
+  border-right: 0.5px solid #d3d3d3;
+  border-bottom: 0.5px solid #d3d3d3;
+  transform: skew( 
+45deg
+) rotate( 
+45deg
+);
+  z-index: 1;
+}
+body{
+   overflow-x:hidden;
+   font-family: "Quicksand", "sans-serif";
+}
+.cg-wrap piece.pawn.white {
+   background-image: url('/images/pieces/merida/wP.svg') !important;
+ }
+ .cg-wrap piece.bishop.white {
+   background-image: url('/images/pieces/merida/wB.svg') !important ;
+ }
+ .cg-wrap piece.knight.white {
+   background-image: url('/images/pieces/merida/wN.svg') !important;
+ }
+ .cg-wrap piece.rook.white {
+   background-image: url('/images/pieces/merida/wR.svg') !important;
+ }
+ .cg-wrap piece.queen.white {
+   background-image: url('/images/pieces/merida/wQ.svg') !important;
+ }
+ .cg-wrap piece.king.white {
+   background-image: url('/images/pieces/merida/wK.svg') !important;
+ }
+ .cg-wrap piece.pawn.black {
+   background-image: url('/images/pieces/merida/bP.svg') !important;
+ }
+ .cg-wrap piece.bishop.black {
+   background-image: url('/images/pieces/merida/bB.svg') !important;
+ }
+ .cg-wrap piece.knight.black {
+   background-image: url('/images/pieces/merida/bN.svg') !important;
+ }
+ .cg-wrap piece.rook.black {
+   background-image: url('/images/pieces/merida/bR.svg') !important;
+ }
+ .cg-wrap piece.queen.black {
+   background-image: url('/images/pieces/merida/bQ.svg') !important;
+ }
+ .cg-wrap piece.king.black {
+   background-image: url('/images/pieces/merida/bK.svg') !important;
+ }
+ 
